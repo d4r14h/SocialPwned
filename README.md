@@ -18,7 +18,7 @@
 
 SocialPwned uses different modules:
 
-- **Instragram**: Making use of the unofficial [Instagram API](https://github.com/LevPasha/Instagram-API-python) from @LevPasha, different methods were developed to obtain the emails published by users. An Instagram account is required.
+- **Instagram**: Making use of the unofficial [Instagram API](https://github.com/LevPasha/Instagram-API-python) from @LevPasha, different methods were developed to obtain the emails published by users. An Instagram account is required.
 - **Linkedin**: Using @tomquirk's unofficial [Linkedin API](https://github.com/tomquirk/linkedin-api), different methods were developed to obtain a company's employees and their contact information (email, twitter or phone). In addition, it is possible to add the employees found to your contacts, so that you can later have access to their network of contacts and information. This module also generates different files with combinations of possible usernames for an organization. A Linkedin account is required.
 - **Twint**: Using [Twint](https://github.com/twintproject/twint) from @twintproject you can track all the Tweets published by a user looking for some email. A Twitter account is not necessary.
 - **PwnDB**: Inspired by the tool [PwnDB](https://github.com/davidtavarez/pwndb) created by @davidtavarez  a module has been developed that searches for all credential leaks from the emails found. In addition, for each email a POST request is made to [HaveIBeenPwned](https://haveibeenpwned.com/) to find out the source of the leak.
@@ -35,12 +35,12 @@ $ service docker start
 $ docker pull mrtuxx/socialpwned
 $ docker run -v $(pwd)/credentials.json:/socialpwned/credentials.json -v $(pwd)/output:/socialpwned/output -it mrtuxx/socialpwned socialpwned.py --credentials credentials.json --help
 ```
->NOTE: You will need to have the docker service correctly installed.
+>NOTE: You will need to have the docker service installed.
 
 
 ### Manual way
 
-The installation of **Tor** depends on your system. On a Debian:
+The installation of **Tor** depends on your system. On Debian use:
 ```
 $ sudo apt-get install tor
 $ /etc/init.d/tor start
