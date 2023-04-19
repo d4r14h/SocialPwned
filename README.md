@@ -1,4 +1,4 @@
-# SocialPwned
+# SocialPwned (grammar and spelling check update!)
 <!---
 <p align="right">
   <a href=https://github.com/MrTuxx/SocialPwned/blob/master/docs/LEEME.md>Spanish🗨</a>
@@ -249,6 +249,6 @@ docker run -v $(pwd)/credentials.json:/socialpwned/credentials.json -v $(pwd)/ou
 
 ## Disclaimer :warning:
 
-The usage of SocialPwned to attack targets without prior mutual consent is illegal. In addition, it makes use of different modules that violate Linkedin and Instagram rules, therefore, you will be banned temporarily or permanently.
+The usage of SocialPwned to attack targets without explicit consent is **illegal**. In addition, it makes use of different modules that violate Linkedin and Instagram Terms Of Service, so you run the risk of being banned.
 
-It is the responsibility of the end user to use SocialPwned. The developers are not responsible and are not liable for any misuse or damage caused.
+It's completely up to the user on how SocialPwned is used. The developers do not hold responsibility and/or liability for the user's actions.
