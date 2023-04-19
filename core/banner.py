@@ -33,7 +33,7 @@ def banner():
 ############################
 ############################
 Author: @MrTuxx
-DISCLAIMER: This is only for testing purposes and can only be used where strict consent has been given. Don't be a fucking stalker.
+DISCLAIMER: Use for educational/testing purposes and at your own risk! The devs hold no responsibility for your actions, so don't be an asshole, skid.
 """
 
     pic = picture.split("\n")
