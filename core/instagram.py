@@ -31,7 +31,7 @@ def getUserProfile(api,username):
 def getEmailsFromUsers(users):
 
     targets = []
-    print(colors.info + " Searching users with emails :)" + colors.end)
+    print(colors.info + " Searching users with emails >:)" + colors.end)
     
     for user in users:
         if str(user["status"]) == "ok":
@@ -77,7 +77,7 @@ def searchEmailInBio(bio):
 def checkUserVisibility(api,targetID):
     api.getUserFeed(targetID)
     if api.LastJson["status"] == "fail":
-        print(colors.bad + " You are not authorized to view this user. " + colors.end)
+        print(colors.bad + " You aren\'t authorized to view this user. " + colors.end)
         return False
     else:
         return True
@@ -148,7 +148,7 @@ def getUserFollowings(api,username):
 
 def getListOfUsers(api,users):
     targets = []
-    print(colors.info + " " + str(len(users)) + " targets have been obtained" + colors.end)
+    print(colors.info + " " + str(len(users)) + " targets acquired." + colors.end)
 
     for user in users:
         targets.append(getUserProfile(api,user.get("username")))
